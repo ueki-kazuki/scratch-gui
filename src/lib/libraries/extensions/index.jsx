@@ -16,6 +16,9 @@ import text2speechInsetIconURL from './text2speech/text2speech-small.svg';
 import translateIconURL from './translate/translate.png';
 import translateInsetIconURL from './translate/translate-small.png';
 
+import newblocksImage from './newblocks.png'
+import newblocksInsetImage from './newblocks-small.png'
+
 import makeymakeyIconURL from './makeymakey/makeymakey.png';
 import makeymakeyInsetIconURL from './makeymakey/makeymakey-small.svg';
 
@@ -47,6 +50,26 @@ import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 export default [
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="New Blocks"
+                description="Name for the 'New Blocks' extension"
+                id="gui.extension.newblocks.name"
+            />
+        ),
+        extensionId: 'newblocks',
+        iconURL: newblocksImage,
+        insetIconURL: newblocksInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="New extension"
+                description="Description for the 'New Blocks' extension"
+                id="gui.extension.newblocks.description"
+            />
+        ),
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
