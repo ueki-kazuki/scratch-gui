@@ -63,7 +63,7 @@ export default [
         insetIconURL: chaserInsetImage,
         description: (
             <FormattedMessage
-                defaultMessage="New extension"
+                defaultMessage="CHaserクライアントを作ろう。"
                 description="Description for the 'CHaser' extension"
                 id="gui.extension.chaser.description"
             />
