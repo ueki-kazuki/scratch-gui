@@ -16,8 +16,8 @@ import text2speechInsetIconURL from './text2speech/text2speech-small.svg';
 import translateIconURL from './translate/translate.png';
 import translateInsetIconURL from './translate/translate-small.png';
 
-import newblocksImage from './newblocks/newblocks.png'
-import newblocksInsetImage from './newblocks/newblocks-small.png'
+import chaserImage from './chaser/newblocks.png'
+import chaserInsetImage from './chaser/newblocks-small.png'
 
 import makeymakeyIconURL from './makeymakey/makeymakey.png';
 import makeymakeyInsetIconURL from './makeymakey/makeymakey-small.svg';
@@ -53,19 +53,19 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="New Blocks"
-                description="Name for the 'New Blocks' extension"
-                id="gui.extension.newblocks.name"
+                defaultMessage="CHaser"
+                description="Name for the 'CHaser' extension"
+                id="gui.extension.chaser.name"
             />
         ),
-        extensionId: 'newblocks',
-        iconURL: newblocksImage,
-        insetIconURL: newblocksInsetImage,
+        extensionId: 'chaser',
+        iconURL: chaserImage,
+        insetIconURL: chaserInsetImage,
         description: (
             <FormattedMessage
                 defaultMessage="New extension"
-                description="Description for the 'New Blocks' extension"
-                id="gui.extension.newblocks.description"
+                description="Description for the 'CHaser' extension"
+                id="gui.extension.chaser.description"
             />
         ),
         featured: true,
