@@ -16,8 +16,8 @@ import text2speechInsetIconURL from './text2speech/text2speech-small.svg';
 import translateIconURL from './translate/translate.png';
 import translateInsetIconURL from './translate/translate-small.png';
 
-import newblocksImage from './newblocks.png'
-import newblocksInsetImage from './newblocks-small.png'
+import newblocksImage from './newblocks/newblocks.png'
+import newblocksInsetImage from './newblocks/newblocks-small.png'
 
 import makeymakeyIconURL from './makeymakey/makeymakey.png';
 import makeymakeyInsetIconURL from './makeymakey/makeymakey-small.svg';
@@ -68,7 +68,11 @@ export default [
                 id="gui.extension.newblocks.description"
             />
         ),
-        featured: true
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
     },
     {
         name: (
